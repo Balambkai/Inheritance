@@ -23,5 +23,12 @@ public class Main {
         box=boxWeight;
         volume= box.volume();
         System.out.println("Volume of mybox1 is "+volume);
+
+        //Multilevel inheritance
+        Shipment shipment1=new Shipment(10,20,30,40,100);
+        volume= shipment1.volume();
+        System.out.println("Volume of shipment is "+volume);
+        System.out.println("Cost of shipment is "+shipment1.cost);
+        System.out.println();
     }
 }

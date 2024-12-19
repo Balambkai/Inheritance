@@ -11,4 +11,10 @@ public class BoxWeight extends Box{
        weight=w1;
     }
 
+    //Constructor for using super keyword
+//    BoxWeight(double w , double h, double d, double w1){
+//        super(w,h,d);
+//        weight=w1;
+//    }
+
 }
