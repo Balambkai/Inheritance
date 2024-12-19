@@ -8,6 +8,7 @@ The concept of inheritance, which enables classes to adopt features and attribut
 4. **extends** keyword is used to connect between super class and sub class.
 5. only common methods, variables can be inherited by the child class. 
 6. **super** keyword is used to refer immediate superclass
+7. Supports overriding (same name and type signature)
 
 ## **_Types of Inheritance and its definitions:_**
 1. Single inheritance - A child class inherits from a single parent class. 
